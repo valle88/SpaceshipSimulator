@@ -20,4 +20,10 @@ public class SpaceShip {
         this.direccionX = direccionX;
         this.direccionY = direccionY;
     }
+
+    public int speedUp(){
+        aceleracion = 3;
+        int velocidad = aceleracion * 60;
+        double posicion = velocidad + (coordenadaX+ coordenadaY);
+    }
 }
