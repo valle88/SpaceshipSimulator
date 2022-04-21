@@ -26,4 +26,6 @@ public class SpaceShip {
         int velocidad = aceleracion * 60;
         double posicion = velocidad + (coordenadaX+ coordenadaY);
     }
+
+
 }
